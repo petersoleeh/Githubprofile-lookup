@@ -1,0 +1,22 @@
+{
+  "name": "githubprofile-lookup",
+  "description": "A web page that assist a user to look up profiles of Github users.",
+  "main": "index.js",
+  "authors": [
+    "Peter Maina"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/petersoleeh/Githubprofile-lookup",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.18.1"
+  }
+}
