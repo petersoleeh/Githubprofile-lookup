@@ -3,7 +3,7 @@ This is a web app that allows a user to look up the profile of persons in Github
 
 ##### https://petersoleeh.github.io/Githubprofile-lookup/
 
-#### {Brief description of application}, Sept. 2017
+####  Sept. 2017
 
 #### By **Peter Maina**
 
