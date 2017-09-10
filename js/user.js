@@ -14,7 +14,11 @@ User.prototype.getUser = function(githubuser){
   $.get('https://api.github.com/users/' + githubuser + '/repos?access_token=' + apiKey).then(function(response){
   	for (var n = 0; n <= response.length; n++)
       // $('#repo').empty();
+      if (response[n].description === null) {
+      $('#repo').append('<li><a target="_blank" href="' + response[n].html_url + '"><p>' + response[n].name + '</p><p>Oops no description here!!!! </p></a></li>');
+    } else {
       $('#repo').append('<li><a target="_blank" href="' + response[n].html_url + '"><p>' + response[n].name +'</p><p>' + response[n].description + '</p></a></li>');
+    }
     // console.log(response);  
   }).fail(function(error){
   

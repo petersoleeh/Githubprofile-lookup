@@ -1,0 +1,10 @@
+.jumbotron {
+  background: green;
+  text-align: center;
+  color: white; }
+
+body {
+  background-color: skyblue;
+  color: black; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiLmp1bWJvdHJvbiB7XG5cdGJhY2tncm91bmQ6IGdyZWVuO1xuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XG5cdGNvbG9yOiB3aGl0ZTtcblxufVxuXG5ib2R5IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogc2t5Ymx1ZTtcbiAgY29sb3I6IGJsYWNrOyBcblxuICB9Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLEFBQUEsVUFBVSxDQUFDO0VBQ1YsVUFBVSxFQUFFLEtBQUs7RUFDakIsVUFBVSxFQUFFLE1BQU07RUFDbEIsS0FBSyxFQUFFLEtBQUssR0FFWjs7QUFFRCxBQUFBLElBQUksQ0FBQztFQUNILGdCQUFnQixFQUFFLE9BQU87RUFDekIsS0FBSyxFQUFFLEtBQUssR0FFWCJ9 */
