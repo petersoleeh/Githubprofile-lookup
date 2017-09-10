@@ -9,6 +9,9 @@ $(document).ready(function () {
 		e.preventDefault();
 		var githubuser = $('#github-username').val();
 		$('#github-username').val("");
+		$('#repo').html("");
+		$('#error').html("");
+		$('.username').html("");
 		// $('.username').text(githubuser);
 		currentUserObject.getUser(githubuser);
 	});

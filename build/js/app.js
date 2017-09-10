@@ -10,7 +10,7 @@ User.prototype.getUser = function(githubuser){
   	 console.log(response);
     $('.username').html('<h2 id="githubuser">' + response.name + '</h2><img id="user-avatarImage" src=' + response.avatar_url + '>');
   }).fail(function(error){
-    $('error').empty();
+    
     $('#error').text(githubuser + ' could not be found, please enter a valid username');
   
 }); 
@@ -40,6 +40,9 @@ $(document).ready(function () {
 		e.preventDefault();
 		var githubuser = $('#github-username').val();
 		$('#github-username').val("");
+		$('#repo').html("");
+		$('#error').html("");
+		$('.username').html("");
 		// $('.username').text(githubuser);
 		currentUserObject.getUser(githubuser);
 	});

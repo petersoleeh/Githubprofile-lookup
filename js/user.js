@@ -7,7 +7,7 @@ User.prototype.getUser = function(githubuser){
   	 console.log(response);
     $('.username').html('<h2 id="githubuser">' + response.name + '</h2><img id="user-avatarImage" src=' + response.avatar_url + '>');
   }).fail(function(error){
-    $('error').empty();
+    
     $('#error').text(githubuser + ' could not be found, please enter a valid username');
   
 }); 
