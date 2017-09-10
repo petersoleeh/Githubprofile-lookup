@@ -40,9 +40,9 @@ $(document).ready(function () {
 		event.preventDefault();
 		var githubuser = $('#github-username').val();
 		$('#github-username').val("");
-		$('#repo').html("");
-		$('#error').html("");
-		$('.username').html("");
+		$('#repo').empty("");
+		$('#error').empty("");
+		$('.username').empty("");
 		// $('.username').text(githubuser);
 		currentUserObject.getUser(githubuser);
 	});
