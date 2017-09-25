@@ -2,11 +2,19 @@
 	background: #008000;
 	text-align: center;
 	color: #fffff0;
-	font-family: 'Gloria Hallelujah', cursive
-	}
+	font-family: 'Gloria Hallelujah', cursive;
+}
 
 body {
-  background-color: #87ceeb;
-  color: #000000; 
+	background-color: #87ceeb;
+	color: #000000;
+}
 
-  }
+li {
+	border: 3px solid #888;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	border-radius: 15px;
+	background: #ffe6ea;
+	padding: 40px 12px 10px 20px;
+}
